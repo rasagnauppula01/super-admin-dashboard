@@ -1,0 +1,28 @@
+/* Global Styles */
+
+/* Green Buttons */
+button {
+    background-color: #168b01; /* Tailwind Green-500 */
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #05962c; /* Darker Green */
+  }
+  
+  /* Green Hover Effect for Text */
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #10b981; /* Green on Hover */
+  }
+  
